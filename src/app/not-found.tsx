@@ -23,7 +23,7 @@ export default function NotFound() {
           className="tracking-tighter font-bold text-xl flex items-center gap-2"
         >
           <ArrowLeft />
-          Go back to home
+          Go Back Home
         </Link>
       </MovingElement>
     </div>
