@@ -1,10 +1,10 @@
-import { FileText, Mail } from "lucide-react";
+// import { FileText, Mail } from "lucide-react";
 // import Link from "next/link";
 
 export function Contact({ data }: { data: Record<string, string> }) {
-  const handleChange = (url: string) => {
-    window.open(url, "_blank");
-  };
+  // const handleChange = (url: string) => {
+  //   window.open(url, "_blank");
+  // };
 
   return (
     <section className="py-10">
@@ -17,7 +17,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
           </p>
         </div>
 
-        <div className="flex sm:flex-row flex-col justify-center items-center gap-4">
+        {/* <div className="flex sm:flex-row flex-col justify-center items-center gap-4">
           <button
             className="inline-flex justify-center items-center bg-primary betterhover:hover:bg-primary/90 disabled:opacity-50 shadow px-4 rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary-foreground text-sm whitespace-nowrap transition-colors cursor-target disabled:pointer-events-none"
             onClick={() => handleChange(data.EMAIL)}
@@ -32,7 +32,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
             <FileText className="mr-2 w-4 h-4" />
             Download Resume
           </button>
-        </div>
+        </div> */}
 
         {/* <div className="flex justify-center items-center gap-6 pt-2">
           <Link
