@@ -10,7 +10,7 @@ export function Header({ data }: { data: Record<string, string> }) {
     <section className="pt-12">
       <div className="space-y-2">
         <p className="font-normal text-muted-foreground text-base">
-          hi there👋, I&apos;m
+          Greetings, I'm
         </p>
 
         <div>
