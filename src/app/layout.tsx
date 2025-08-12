@@ -34,25 +34,15 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   authors: [
-    { name: "Utkarsh Singhal", url: "https://utkarsh-singhal.is-a.dev/" },
+    { name: "Sky (Takeables)", url: "https://utkarsh-singhal.is-a.dev/" },
   ],
   keywords: [
-    "Utkarsh Singhal",
+    "Skyler (Takeables)",
     "Software Developer",
-    "Full-Stack Developer",
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Node.js",
-    "AWS",
-    "GCP",
-    "MongoDB",
-    "Firebase",
-    "Tailwind CSS",
-    "Web Development",
+    "Lua",
   ],
-  creator: "Utkarsh Singhal",
-  publisher: "Utkarsh Singhal",
+  creator: "Skyler (Takeables)",
+  publisher: "Skyler (Takeables)",
 };
 
 export default function RootLayout({

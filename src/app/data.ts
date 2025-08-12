@@ -28,8 +28,8 @@ export const DATA = {
     RESUME:
       "https://drive.google.com/file/d/1piWpArbdbjt4PKF4gZlR0nkD09au_8fE/view",
     EMAIL: "mailto:takeablescontact@gmail.com",
-    GITHUB: "https://github.com/Utkarsh-Singhal-26",
-    LINKEDIN: "https://www.linkedin.com/in/singhalutkarsh26",
+    GITHUB: "https://github.com/TakeablesOnGit",
+    // LINKEDIN: "https://www.linkedin.com/in/singhalutkarsh26",
   },
 
   ABOUT_ME: {
