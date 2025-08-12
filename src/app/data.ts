@@ -24,7 +24,7 @@ export const DATA = {
     AGE: "21",
     PRONOUN: "He/Him",
     HEADLINE:
-      "Passionate about building high-performance and scalable web applications.",
+      "Full-Stack Roblox Developer | Game Development Enthusiast",
     RESUME:
       "https://drive.google.com/file/d/1piWpArbdbjt4PKF4gZlR0nkD09au_8fE/view",
     EMAIL: "mailto:takeablescontact@gmail.com",
