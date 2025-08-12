@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/next';
+
 export function Skills({ data }: { data: Record<string, string[]> }) {
   return (
     <div id="Skills" className="py-10">
@@ -10,6 +12,7 @@ export function Skills({ data }: { data: Record<string, string[]> }) {
           <li key={key} className="items-end grid sm:grid-cols-[170px_1fr]">
             <p>{key}:</p>
             <p className="text-muted-foreground text-sm">{value.join(", ")}</p>
+            <Analytics />
           </li>
         ))}
       </ul>

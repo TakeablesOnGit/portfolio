@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
+import { Analytics } from '@vercel/analytics/next';
 
 interface IProjectData {
   LIVE_PREVIEW?: string;
@@ -74,6 +75,7 @@ export function Projects({ data }: { data: Record<string, IProjectData> }) {
           className="inline-flex justify-center items-center bg-background hover:bg-accent disabled:opacity-50 shadow-sm px-4 py-2 border border-input rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-muted-foreground text-sm whitespace-nowrap transition-colors hover:text-accent-foreground cursor-target disabled:pointer-events-none"
         >
           View all projects
+          <Analytics />
         </Link>
       </div>
     </div>

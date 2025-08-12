@@ -1,5 +1,6 @@
 // import { FileText, Mail } from "lucide-react";
 // import Link from "next/link";
+import { Analytics } from '@vercel/analytics/next';
 
 export function Contact({  }: { data: Record<string, string> }) {
   // const handleChange = (url: string) => {
@@ -65,6 +66,7 @@ export function Contact({  }: { data: Record<string, string> }) {
          <p className="mt-2 text-gray-500 text-xs">
             Discord:{" takeables "}
             | Response Time: Usually Within 24 Hours
+            <Analytics />
           </p>
         </div>
       </div>

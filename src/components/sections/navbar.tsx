@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { AnimatedText, MovingElement } from "../navbar";
+import { Analytics } from '@vercel/analytics/next';
 
 export function Navbar() {
   const router = useRouter();
@@ -35,6 +36,7 @@ export function Navbar() {
         <Link href={"/"} className="font-bold text-xl tracking-tighter">
           Takeables.
         </Link>
+        <Analytics />
       </MovingElement>
 
       <nav className="flex items-center gap-2">
@@ -55,6 +57,7 @@ export function Navbar() {
             } mode`}
           >
             {resolvedTheme === "dark" ? <Moon /> : <Sun />}
+            <Analytics />
           </MovingElement>
         )}
       </nav>

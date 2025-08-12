@@ -1,5 +1,6 @@
 import { extractDomain } from "@/lib/utils";
 import { ArrowUpRight } from "lucide-react";
+import { Analytics } from '@vercel/analytics/next';
 
 interface IExperienceData {
   WEBSITE: string;
@@ -52,6 +53,7 @@ export function Experience({
                 {value.DESCRIPTION.map((desc, index) => (
                   <li key={index}>
                     <span>{desc}</span>
+                    <Analytics />
                   </li>
                 ))}
               </ul>

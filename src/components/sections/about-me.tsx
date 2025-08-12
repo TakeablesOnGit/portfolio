@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/next';
+
 export function AboutMe({ data }: { data: Record<string, string> }) {
   return (
     <div id="aboutme" className="py-10">
@@ -6,6 +8,7 @@ export function AboutMe({ data }: { data: Record<string, string> }) {
       <p className="flex flex-col gap-2 mt-4 font-normal text-muted-foreground text-base text-justify">
         <span>
           {data.INTRO}{" "}
+           <Analytics />
           <span className="hidden sm:inline">{data.EXPERTISE}</span>
         </span>
 

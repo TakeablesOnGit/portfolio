@@ -1,4 +1,5 @@
 import { ArrowUp } from "lucide-react";
+import { Analytics } from '@vercel/analytics/next';
 
 export function Footer() {
   function scrollToTop() {
@@ -19,6 +20,7 @@ export function Footer() {
       >
         Elevate to the top
         <ArrowUp size={20} />
+        <Analytics />
       </button>
     </div>
   );
