@@ -1,7 +1,7 @@
 // import { FileText, Mail } from "lucide-react";
 // import Link from "next/link";
 
-export function Contact({ data }: { data: Record<string, string> }) {
+export function Contact({  }: { data: Record<string, string> }) {
   // const handleChange = (url: string) => {
   //   window.open(url, "_blank");
   // };
