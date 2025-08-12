@@ -20,9 +20,9 @@ export interface IProjectData {
 
 export const DATA = {
   HEADER: {
-    NAME: "Utkarsh Singhal",
-    AGE: "20",
-    PRONOUN: "he/him",
+    NAME: "Takeables",
+    AGE: "21",
+    PRONOUN: "He/Him",
     HEADLINE:
       "Passionate about building high-performance and scalable web applications.",
     RESUME:
