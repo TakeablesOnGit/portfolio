@@ -1,5 +1,6 @@
 // import { Mail } from "lucide-react";
 // import { MovingElement } from "../navbar";
+import { Analytics } from '@vercel/analytics/next';
 
 export function Header({ data }: { data: Record<string, string> }) {
   // const handleChange = (url: string) => {
@@ -16,12 +17,15 @@ export function Header({ data }: { data: Record<string, string> }) {
         <div>
           <h1 className="font-bold text-primary/90 text-4xl tracking-tight">
             {data.NAME}
+             <Analytics />
           </h1>
           <h2 className="flex flex-col gap-0 font-normal text-primary/90 text-base">
             <p>
               {data.AGE}, {data.PRONOUN}
+               <Analytics />
             </p>
             <p>{data.HEADLINE}</p>
+             <Analytics />
           </h2>
         </div>
 
