@@ -40,10 +40,11 @@ export function Contact({ data }: { data: Record<string, string> }) {
 
         <div className="pt-4 cursor-target">
           <p className="text-gray-400 text-sm">
-            Currently available for freelance work and full-time opportunities
+            Currently Open For Commissions
           </p>
           <p className="mt-2 text-gray-500 text-xs">
-            Response time: Usually within 24 hours
+            Discord:{" takeables "}
+            | Response Time: Usually Within 24 Hours
           </p>
         </div>
       </div>
