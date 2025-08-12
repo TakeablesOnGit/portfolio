@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Mail } from "lucide-react";
 import { MovingElement } from "../navbar";
 
 export function Header({ data }: { data: Record<string, string> }) {
@@ -35,12 +35,6 @@ export function Header({ data }: { data: Record<string, string> }) {
             ROBLOX
           </MovingElement>
           <div className="flex gap-2">
-            <MovingElement
-              change={() => handleChange(data.EMAIL)}
-              ariaLabel="Email"
-            >
-              <Mail />
-            </MovingElement>
             <MovingElement
               change={() => handleChange(data.GITHUB)}
               ariaLabel="Github"

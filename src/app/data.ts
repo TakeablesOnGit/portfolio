@@ -27,15 +27,14 @@ export const DATA = {
       "Full-Stack Roblox Developer | Game Development Enthusiast",
     ROBLOX:
      "https://www.roblox.com/users/4273611457/profile",
-    EMAIL: "mailto:takeablescontact@gmail.com",
     GITHUB: "https://github.com/TakeablesOnGit",
   },
 
   ABOUT_ME: {
     INTRO:
-      "Hey! I'm a full-stack developer who loves building efficient, scalable, and intuitive applications. I thrive on solving complex problems, optimizing performance, and creating seamless user experiences.",
+      "I'm a full-stack ROBLOX developer. I have been on the ROBLOX platform for over 9 years, and have developed a strong passion for creating immersive gaming experiences. I love making someone's ideas come to life through code and design.",
     EXPERTISE:
-      "My expertise lies in Next.js, TypeScript, Node.js, and Cloud technologies, and I enjoy working across the stack to bring ideas to life.",
+      "My expertise is more prominent in programing (luau) and UI Design. I create clean code that is easy to read and maintain, and I am always looking for ways to improve my skills and knowledge. I am also experienced in building, 3D modeling, texturing, VFX, and sound design.",
     BLOG: "I would love publishing blogs and sharing insights on web development, best practices, and new technologies.",
   },
 
