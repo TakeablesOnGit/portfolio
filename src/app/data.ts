@@ -85,9 +85,9 @@ export const DATA = {
       ],
 
       TECH_STACK: [
-        "Skill Text 1",
-        "Skill Text 2",
-        "Skill Text 3",
+        "Scripting",
+        "UI Design",
+        "Icon Art",
       ],
 
       IMAGE: Duelists,

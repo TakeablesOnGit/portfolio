@@ -35,14 +35,11 @@ export default function Page() {
       />
 
       <section className="py-16">
-        <h1 className="font-medium text-primary/90 text-base">my projects.</h1>
+        <h1 className="font-medium text-primary/90 text-base">My Projects.</h1>
         <div className="max-w-4xl text-muted-foreground text-sm text-justify leading-relaxed">
           <p className="mt-2 mb-4">
-            Passionate about building high-performance and scalable web
-            applications. I thrive on solving complex problems, optimizing
-            performance, and creating intuitive user experiences. My expertise
-            lies in Next.js, TypeScript, and Cloud technologies, with a strong
-            focus on delivering quality solutions.
+            Passionate & dedicated ROBLOX developer with a focus on creating immersive & engaging experiences aswell as an understanding of what makes a ROBLOX game do well.
+            My portfolio showcases a variety of projects that highlight my skills in game design, scripting, & user interface development. Each project reflects my commitment to quality and innovation in the Roblox platform.
           </p>
         </div>
       </section>
@@ -78,7 +75,7 @@ export default function Page() {
                           className="flex items-center gap-1"
                           href={value.LIVE_PREVIEW}
                         >
-                          live preview <ArrowUpRight size={18} />
+                          Game Link <ArrowUpRight size={18} />
                         </a>
                       )}
                       {value.GITHUB && (

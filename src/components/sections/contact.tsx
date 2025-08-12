@@ -13,8 +13,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
           <h2 className="font-bold text-3xl">Let&apos;s work together.</h2>
           <p className="mx-auto max-w-2xl text-gray-300 text-base">
             I&apos;m always interested in new opportunities and exciting
-            projects. Whether you have a project in mind or just want to chat
-            about tech, I&apos;d love to hear from you.
+            projects. I'm always open to hearing my clients ideas & bringing them to life. I&apos;d love to hear from you.
           </p>
         </div>
 
