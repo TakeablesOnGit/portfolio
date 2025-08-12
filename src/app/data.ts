@@ -29,7 +29,6 @@ export const DATA = {
      "https://www.roblox.com/users/4273611457/profile",
     EMAIL: "mailto:takeablescontact@gmail.com",
     GITHUB: "https://github.com/TakeablesOnGit",
-    // LINKEDIN: "https://www.linkedin.com/in/singhalutkarsh26",
   },
 
   ABOUT_ME: {

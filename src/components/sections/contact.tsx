@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin, Mail } from "lucide-react";
+import { FileText, Github, Mail } from "lucide-react";
 import Link from "next/link";
 
 export function Contact({ data }: { data: Record<string, string> }) {
@@ -28,10 +28,10 @@ export function Contact({ data }: { data: Record<string, string> }) {
           </button>
           <button
             className="inline-flex justify-center items-center hover:bg-primary/10 disabled:opacity-50 shadow px-4 border border-primary rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring h-9 font-medium text-primary text-sm whitespace-nowrap transition-colors cursor-target disabled:pointer-events-none"
-            onClick={() => handleChange(data.RESUME)}
+            onClick={() => handleChange(data.ROBLOX)}
           >
             <FileText className="mr-2 w-4 h-4" />
-            Download Resume
+            Open Roblox Profile
           </button>
         </div>
 
@@ -44,14 +44,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
             <Github className="w-5 h-5" />
           </Link>
           <Link
-            href="#"
-            className="text-gray-400 hover:text-white transition-colors"
-            onClick={() => handleChange(data.LINKEDIN)}
-          >
-            <Linkedin className="w-5 h-5" />
-          </Link>
-          <Link
-            href="mailto:utkarsh@example.com"
+            href="mailto:takeablescontact@gmail.com"
             className="text-gray-400 hover:text-white transition-colors"
             onClick={() => handleChange(data.EMAIL)}
           >

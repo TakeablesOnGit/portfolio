@@ -47,12 +47,6 @@ export function Header({ data }: { data: Record<string, string> }) {
             >
               <Github />
             </MovingElement>
-            <MovingElement
-              change={() => handleChange(data.LINKEDIN)}
-              ariaLabel="Linkedin"
-            >
-              <Linkedin />
-            </MovingElement>
           </div>
         </div>
       </div>
