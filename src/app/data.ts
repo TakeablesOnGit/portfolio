@@ -25,8 +25,8 @@ export const DATA = {
     PRONOUN: "He/Him",
     HEADLINE:
       "Full-Stack Roblox Developer | Game Development Enthusiast",
-    RESUME:
-      "https://drive.google.com/file/d/1piWpArbdbjt4PKF4gZlR0nkD09au_8fE/view",
+    ROBLOX:
+     "https://www.roblox.com/users/4273611457/profile",
     EMAIL: "mailto:takeablescontact@gmail.com",
     GITHUB: "https://github.com/TakeablesOnGit",
     // LINKEDIN: "https://www.linkedin.com/in/singhalutkarsh26",
