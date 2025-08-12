@@ -39,8 +39,8 @@ export const DATA = {
   },
 
   EXPERIENCE: {
-    "Aardo Solutions": {
-      WEBSITE: "https://www.aardosolutions.com/",
+    "Zyleak's MM2": {
+      WEBSITE: "https://discord.gg/zyleak-s-mm2-887708783860678696",
       POSITION: "Software Developer",
       LOCATION: "Remote",
       DURATION: "Nov, 2024 - Present",
