@@ -2,9 +2,9 @@
 // import { MovingElement } from "../navbar";
 
 export function Header({ data }: { data: Record<string, string> }) {
-  const handleChange = (url: string) => {
-    window.open(url, "_blank");
-  };
+  // const handleChange = (url: string) => {
+  //   window.open(url, "_blank");
+  // };
 
   return (
     <section className="pt-12">
