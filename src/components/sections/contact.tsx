@@ -13,8 +13,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
           <h2 className="font-bold text-3xl">Let&apos;s work together.</h2>
           <p className="mx-auto max-w-2xl text-gray-300 text-base">
             I&apos;m always interested in new opportunities and exciting
-            projects. Whether you have a project in mind or just want to chat
-            about tech, I&apos;d love to hear from you.
+            projects. Message me if you have commission inquiry, I&apos;d love to hear from you.
           </p>
         </div>
 
@@ -35,7 +34,7 @@ export function Contact({ data }: { data: Record<string, string> }) {
           </button>
         </div>
 
-        <div className="flex justify-center items-center gap-6 pt-2">
+        {/* <div className="flex justify-center items-center gap-6 pt-2">
           <Link
             href="#"
             className="text-gray-400 hover:text-white transition-colors"
@@ -57,14 +56,15 @@ export function Contact({ data }: { data: Record<string, string> }) {
           >
             <Mail className="w-5 h-5" />
           </Link>
-        </div>
+        </div> */}
 
         <div className="pt-4 cursor-target">
           <p className="text-gray-400 text-sm">
-            Currently available for freelance work and full-time opportunities
+            Currently Open For Commissions
           </p>
-          <p className="mt-2 text-gray-500 text-xs">
-            Response time: Usually within 24 hours
+         <p className="mt-2 text-gray-500 text-xs">
+            Discord:{" takeables "}
+            | Response Time: Usually Within 24 Hours
           </p>
         </div>
       </div>
