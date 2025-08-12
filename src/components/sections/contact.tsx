@@ -1,4 +1,4 @@
-import { FileText, Github, Mail } from "lucide-react";
+import { FileText, Github } from "lucide-react";
 import Link from "next/link";
 
 export function Contact({ data }: { data: Record<string, string> }) {

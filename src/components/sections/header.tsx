@@ -1,4 +1,4 @@
-import { Github, Mail } from "lucide-react";
+import { Github } from "lucide-react";
 import { MovingElement } from "../navbar";
 
 export function Header({ data }: { data: Record<string, string> }) {
