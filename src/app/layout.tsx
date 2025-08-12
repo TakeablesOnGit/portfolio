@@ -12,11 +12,11 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Utkarsh Singhal | Software Developer",
+  title: "Takeables | Software Developer",
   description:
     "Software developer specializing in Next.js, TypeScript and Node.js.",
   openGraph: {
-    title: "Utkarsh Singhal | Software Developer",
+    title: "Takeables | Software Developer",
     description:
       "Software developer specializing in Next.js, TypeScript, and Node.js. Experienced in building scalable, high-performance applications.",
     url: "https://utkarsh-singhal.is-a.dev/",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "https://utkarsh-singhal.is-a.dev/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Utkarsh Singhal | Software Developer",
+        alt: "Takeables| Software Developer",
       },
     ],
   },
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   authors: [
-    { name: "Sky (Takeables)", url: "https://utkarsh-singhal.is-a.dev/" },
+    { name: "Takeables", url: "https://utkarsh-singhal.is-a.dev/" },
   ],
   keywords: [
     "Skyler (Takeables)",
