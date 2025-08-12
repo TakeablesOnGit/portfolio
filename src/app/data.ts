@@ -79,9 +79,10 @@ export const DATA = {
     "Duelists": {
       LIVE_PREVIEW: "https://www.roblox.com/games/132732390709362",
       DESCRIPTION: [
-        "Desciption Text 1",
-        "Desciption Text 2",
-        "Desciption Text 3",
+        "🔪 Duel against other players or friends!",
+        "🪙 Earn gold to buy boxes, emotes, and more!",
+        "📦 Unbox and collect items!",
+        "🏆 Compete and grind the leaderboards for a spot on the top!",
       ],
 
       TECH_STACK: [
