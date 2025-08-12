@@ -12,13 +12,13 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Takeables | Software Developer",
+  title: "Takeables | ROBLOX Game Developer",
   description:
-    "Software developer specializing in Next.js, TypeScript and Node.js.",
+    "ROBLOX Game developer specializing in coding and UI Design.",
   openGraph: {
-    title: "Takeables | Software Developer",
+    title: "Takeables | ROBLOX Game Developer",
     description:
-      "Software developer specializing in Next.js, TypeScript, and Node.js. Experienced in building scalable, high-performance applications.",
+      "ROBLOX Game developer specializing in coding and UI Design.",
     url: "https://utkarsh-singhal.is-a.dev/",
     type: "website",
     images: [
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "https://utkarsh-singhal.is-a.dev/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Takeables| Software Developer",
+        alt: "Takeables | ROBLOX Game Developer",
       },
     ],
   },
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     { name: "Takeables", url: "https://utkarsh-singhal.is-a.dev/" },
   ],
   keywords: [
-    "Skyler (Takeables)",
-    "Software Developer",
+    "Takeables",
+    "ROBLOX Developer",
     "Lua",
   ],
-  creator: "Skyler (Takeables)",
-  publisher: "Skyler (Takeables)",
+  creator: "Takeables",
+  publisher: "Takeables",
 };
 
 export default function RootLayout({
