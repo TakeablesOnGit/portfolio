@@ -1,10 +1,6 @@
 import { StaticImageData } from "next/image";
 
 import {
-  AirwatchImage,
-  LibraryImage,
-  SkygazeImage,
-  TodoImage,
   Duelists,
 } from "@/assets";
 
