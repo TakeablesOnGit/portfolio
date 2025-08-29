@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 
 import {
   Duelists,
+  UIToolsIcon,
 } from "@/assets";
 
 export interface IProjectData {
@@ -88,6 +89,22 @@ export const DATA = {
       ],
 
       IMAGE: Duelists,
+      HIDDEN: false,
+    },
+
+     "UI Tools": {
+      LIVE_PREVIEW: "https://create.roblox.com/store/asset/129313707373904/UI-Tools",
+      DESCRIPTION: [
+        "⚓ Anchor UI elements to any corner or side of the screen!",
+        "⚖️ Scale UI elements to any size relative to the screen!"
+      ],
+
+      TECH_STACK: [
+        "Scripting",
+        "UI Design"
+      ],
+
+      IMAGE: UIToolsIcon,
       HIDDEN: false,
     },
   },
