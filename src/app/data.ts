@@ -83,9 +83,10 @@ export const DATA = {
       ],
 
       TECH_STACK: [
-        "Scripting",
-        "UI Design",
-        "Icon Art",
+        "Roblox",
+        "Game",
+        "PVP",
+        "Duels"
       ],
 
       IMAGE: Duelists,
@@ -100,8 +101,9 @@ export const DATA = {
       ],
 
       TECH_STACK: [
-        "Scripting",
-        "UI Design"
+        "Roblox Studio",
+        "Plugin",
+        "Free",
       ],
 
       IMAGE: UIToolsIcon,
