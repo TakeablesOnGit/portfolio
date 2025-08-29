@@ -111,7 +111,7 @@ export const DATA = {
     },
 
     "Thumbnail Creator": {
-      LIVE_PREVIEW: "https://create.roblox.com/store/asset/129313707373904/UI-Tools",
+      LIVE_PREVIEW: "https://create.roblox.com/store/asset/13772812385/Instant-Model-Thumbnail",
       DESCRIPTION: [
         "📸 Instantly make model thumbnails",
         "🔒 Lock models in place for mess up free setup"
