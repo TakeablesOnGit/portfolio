@@ -75,7 +75,7 @@ export default function Page() {
                           className="flex items-center gap-1"
                           href={value.LIVE_PREVIEW}
                         >
-                          Game Link <ArrowUpRight size={18} />
+                          Link <ArrowUpRight size={18} />
                         </a>
                       )}
                       {value.GITHUB && (
