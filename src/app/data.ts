@@ -164,7 +164,7 @@ export const DATA = {
       "Roblox Studio",
       "Blender",
       "Paint.net",
-      "Figma",
+      "Github",
       "Visual Studio Code",
     ]
   },
