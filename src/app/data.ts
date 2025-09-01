@@ -136,6 +136,14 @@ export const DATA = {
       DESCRIPTION:
         "Duelists will be releasing on September 14th, 2025.",
     },
+
+     "Duelists Release Change": {
+      DATE: "September 11, 2025",
+      TIME: "2",
+      LINK: "https://x.com/Takeables/status/1948715600055796008",
+      DESCRIPTION:
+        "Duelists release date has been changed! This was decided due to the fact the previous release date September 14th, 2025 was on a sunday. We want to release on a day where more people are active, so the new release date is September 12th, 2025.",
+    },
   },
 
   SKILLS: {
