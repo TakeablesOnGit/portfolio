@@ -32,7 +32,7 @@ export const DATA = {
       "I'm a full-stack ROBLOX developer. I have been on the ROBLOX platform for over 9 years, and have developed a strong passion for creating immersive gaming experiences. I love making someone's ideas come to life through code and design.",
     EXPERTISE:
       "My expertise is more prominent in programing (luau) and UI Design. I create clean code that is easy to read and maintain, and I am always looking for ways to improve my skills and knowledge. I am also experienced in building, 3D modeling, texturing, VFX, and sound design.",
-    BLOG: "I would love publishing blogs and sharing insights on web development, best practices, and new technologies.",
+    BLOG: "News & Updates regarding my projects can be found in the blog section below.",
   },
 
   EXPERIENCE: {
