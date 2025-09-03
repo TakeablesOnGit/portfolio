@@ -129,20 +129,12 @@ export const DATA = {
   },
 
   BLOGS: {
-     "Duelists Release Change": {
-      DATE: "September 11, 2025",
-      TIME: "2",
+     "Duelists Release Date": {
+      DATE: "September 3, 2025",
+      TIME: "1",
       LINK: "https://www.roblox.com/events/726934250443244053",
       DESCRIPTION:
-        "Duelists release date has been changed! This was decided due to the fact the previous release date September 14th, 2025 was on a sunday. We want to release on a day where more people are active, so the new release date is September 12th, 2025.",
-    },
-    
-    "Duelists Release Date": {
-      DATE: "August 12, 2025",
-      TIME: "1",
-      LINK: "https://x.com/Takeables/status/1948715600055796008",
-      DESCRIPTION:
-        "Duelists will be releasing on September 14th, 2025.",
+        "Duelists release date has been set! October 1, 2024!",
     },
   },
 
