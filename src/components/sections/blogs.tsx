@@ -26,7 +26,7 @@ export function Blogs({ data }: { data: Record<string, IBlogData> }) {
               <img
                 src={value.IMAGE.src}
                 alt={key}
-                className="w-full sm:w-50 h-50 object-cover rounded-lg shadow-md"
+                 className="rounded-lg shadow-md max-w-full h-auto"
               />
               
               <p className="text-primary/90 text-lg">
