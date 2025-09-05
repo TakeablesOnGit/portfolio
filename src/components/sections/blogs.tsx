@@ -6,6 +6,7 @@ interface IBlogData {
   TIME: string;
   LINK: string;
   DESCRIPTION: string;
+  IMAGE: string;
 }
 
 export function Blogs({ data }: { data: Record<string, IBlogData> }) {
