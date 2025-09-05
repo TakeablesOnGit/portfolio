@@ -26,6 +26,8 @@ export function Blogs({ data }: { data: Record<string, IBlogData> }) {
               <img
                 src={value.IMAGE.src}
                 alt={key}
+                width={500}
+                height={500}
                 className="w-full sm:w-48 h-32 object-cover rounded-lg shadow-md"
               />
               
