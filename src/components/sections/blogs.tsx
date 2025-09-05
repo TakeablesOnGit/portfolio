@@ -14,7 +14,7 @@ export function Blogs({ data }: { data: Record<string, IBlogData> }) {
   return (
     <div id="Blogs" className="py-10">
       <h2 className="font-medium text-primary/90 text-base">
-        LEAKS.
+        Duelists Leaks.
       </h2>
 
       <ul className="flex flex-col gap-12 mt-4 font-normal text-primary/90 text-base">
