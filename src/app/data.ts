@@ -3,6 +3,7 @@ import { StaticImageData } from "next/image";
 import {
   Duelists,
   UIToolsIcon,
+  Leak1,
 } from "@/assets";
 
 export interface IProjectData {
@@ -133,6 +134,7 @@ export const DATA = {
       DATE: "September 3, 2025",
       TIME: "1",
       LINK: "https://www.roblox.com/events/726934250443244053",
+      IMAGE: Leak1,
       DESCRIPTION:
         "Duelists release date has been set! October 1, 2024!",
     },

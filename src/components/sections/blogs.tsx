@@ -1,12 +1,13 @@
 import { ArrowUpRight } from "lucide-react";
 import { Analytics } from '@vercel/analytics/next';
+import { StaticImageData } from "next/image";
 
 interface IBlogData {
   DATE: string;
   TIME: string;
   LINK: string;
   DESCRIPTION: string;
-  IMAGE: string;
+  IMAGE: StaticImageData;
 }
 
 export function Blogs({ data }: { data: Record<string, IBlogData> }) {
@@ -20,6 +21,14 @@ export function Blogs({ data }: { data: Record<string, IBlogData> }) {
         {Object.entries(data).map(([key, value]) => (
           <li key={key} className="cursor-target">
             <div className="pl-4 border-muted-foreground hover:border-primary border-l size-full transition-all duration-300">
+              
+              {/* Blog image */}
+              <img
+                src={value.IMAGE.src}
+                alt={key}
+                className="w-full sm:w-48 h-32 object-cover rounded-lg shadow-md"
+              />
+              
               <p className="text-primary/90 text-lg">
                 {key}{" "}
                 <span className="inline-block bg-secondary max-sm:mb-2 ml-2 px-2 py-1 rounded text-xs">
