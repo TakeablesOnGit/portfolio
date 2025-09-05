@@ -31,7 +31,7 @@ export function Projects({ data }: { data: Record<string, IProjectData> }) {
                           className="flex items-center gap-1"
                           href={value.LIVE_PREVIEW}
                         >
-                          live preview <ArrowUpRight size={18} />
+                          LINK <ArrowUpRight size={18} />
                         </a>
                       )}
                       {value.GITHUB && (
