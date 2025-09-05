@@ -131,12 +131,12 @@ export const DATA = {
 
   BLOGS: {
      "Duelists Release Date": {
-      DATE: "September 3, 2025",
+      DATE: "September 5, 2025",
       TIME: "1",
       LINK: "https://www.roblox.com/events/726934250443244053",
       IMAGE: Leak1,
       DESCRIPTION:
-        "Duelists release date has been set! October 1, 2024!",
+        "October, ??? 2025",
     },
   },
 
