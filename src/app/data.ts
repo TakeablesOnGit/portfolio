@@ -4,6 +4,7 @@ import {
   Duelists,
   UIToolsIcon,
   Leak1,
+  MTC_Icon,
 } from "@/assets";
 
 export interface IProjectData {
@@ -137,6 +138,15 @@ export const DATA = {
       IMAGE: Leak1,
       DESCRIPTION:
         "October, ??? 2025",
+    },
+
+    "Model Thumbnail Creator v1.2": {
+      DATE: "September 8, 2025",
+      TIME: "1",
+      LINK: "https://devforum.roblox.com/t/plugin-model-thumbnail-creator/3924726",
+      IMAGE: MTC_Icon,
+      DESCRIPTION:
+        "Model Thumbnail Creator v1.2 is out now! This update brings real time preview updates to the UI",
     },
   },
 
