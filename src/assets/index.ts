@@ -5,3 +5,4 @@ export { default as Duelists } from "./Duelists.png";
 export { default as AirwatchImage } from "./airwatch.webp";
 export { default as UIToolsIcon } from "./UITools.png";
 export { default as Leak1 } from "./Leak1.png";
+export { default as MTC_Icon } from "./ModelThumbnailCreatorIcon.png";
